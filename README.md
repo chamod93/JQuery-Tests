@@ -1,5 +1,6 @@
 # JQuery-Tests
 In this folder I have used some plugins for this
+<br>
 /*
 -lazyload.html-
 This page is a image gallery. 
