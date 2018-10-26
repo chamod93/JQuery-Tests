@@ -1,2 +1,2 @@
 # JQuery-Tests
-Jquery plugins
+In this folder I have used some plugins for this
