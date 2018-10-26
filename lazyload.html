@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+  <style>
+  h1{
+	font-family:"Times New Roman",Times, Baskerville,Georgia, serif;
+	font-size: 48px;
+	letter-spacing: -5px;
+}
+
+.main{
+	margin: 10px auto;
+	width:996px;
+}
+
+.main img{
+	width:330px;
+	height:220px;
+	float:left;
+	margin: 1px;
+}
+  </style>
+</head>
+<body>
+	<div class="main">
+		<h1> Photo Gallery</h1>
+
+		<img data-original="img/1.jpg" class="lazy">
+		<img data-original="img/2.jpg" class="lazy">
+		<img data-original="img/3.jpg" class="lazy">
+		<img data-original="img/4.jpg" class="lazy">
+		<img data-original="img/5.jpg" class="lazy">
+		<img data-original="img/6.jpg" class="lazy">
+		<img data-original="img/7.jpg" class="lazy">
+		<img data-original="img/8.jpg" class="lazy">
+		<img data-original="img/9.jpg" class="lazy">
+		<img data-original="img/10.jpg" class="lazy">
+		<img data-original="img/11.jpg" class="lazy">
+		<img data-original="img/12.jpg" class="lazy">
+		<img data-original="img/13.jpg" class="lazy">
+		<img data-original="img/14.jpg" class="lazy">
+		<img data-original="img/15.jpg" class="lazy">
+		<img data-original="img/16.jpg" class="lazy">
+		<img data-original="img/17.jpg" class="lazy">
+		<img data-original="img/18.jpg" class="lazy">
+		<img data-original="img/19.jpg" class="lazy">
+		<img data-original="img/20.jpg" class="lazy">
+		<img data-original="img/21.jpg" class="lazy">
+		<img data-original="img/22.jpg" class="lazy">
+		<img data-original="img/23.jpg" class="lazy">
+		<img data-original="img/24.jpg" class="lazy">
+		<img data-original="img/25.jpg" class="lazy">
+		<img data-original="img/26.jpg" class="lazy">
+		<img data-original="img/27.jpg" class="lazy">
+		<img data-original="img/28.jpg" class="lazy">
+		<img data-original="img/29.jpg" class="lazy">
+		<img data-original="img/30.jpg" class="lazy">
+		<img data-original="img/31.jpg" class="lazy">
+		<img data-original="img/32.jpg" class="lazy">
+		<img data-original="img/33.jpg" class="lazy">
+		<img data-original="img/34.jpg" class="lazy">
+		<img data-original="img/35.jpg" class="lazy">
+		<img data-original="img/36.jpg" class="lazy">
+		<img data-original="img/37.jpg" class="lazy">
+		<img data-original="img/38.jpg" class="lazy">
+		<img data-original="img/39.jpg" class="lazy">
+		<img data-original="img/40.jpg" class="lazy">
+		<img data-original="img/41.jpg" class="lazy">
+		<img data-original="img/42.jpg" class="lazy">
+		<img data-original="img/43.jpg" class="lazy">
+		<img data-original="img/44.jpg" class="lazy">
+		<img data-original="img/45.jpg" class="lazy">
+		<img data-original="img/46.jpg" class="lazy">
+		<img data-original="img/47.jpg" class="lazy">
+		<img data-original="img/48.jpg" class="lazy">
+		<img data-original="img/49.jpg" class="lazy">
+		<img data-original="img/50.jpg" class="lazy">
+		<img data-original="img/51.jpg" class="lazy">
+		<img data-original="img/52.jpg" class="lazy">
+		<img data-original="img/53.jpg" class="lazy">
+		<img data-original="img/54.jpg" class="lazy">
+		<img data-original="img/55.jpg" class="lazy">
+		<img data-original="img/56.jpg" class="lazy">
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.js"></script>
+	<script>
+		$(function(){
+			$('img.lazy').lazyload({
+      effect: "fadeIn"
+      });
+		});
+	</script>
+</body>
+</html>
