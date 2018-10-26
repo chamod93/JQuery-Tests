@@ -1,0 +1,44 @@
+*{margin:0; padding:0;}
+
+body{font-family: cursive;}
+
+.topnav{
+  background-color:darkBlue;
+  overflow:auto;
+}
+
+h2.company{
+  color:white;
+  float:left;
+  padding:10px;
+  letter-spacing: -1px;
+}
+
+nav{
+  float:right;
+}
+
+nav ul{
+  list-style:none; 
+  
+}
+
+nav ul li{
+  display:inline;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+  margin:15px 10px 10px 10px;
+  display:inline-block;
+}
+
+h1.logo{
+  margin:20px 10px;
+  letter-spacing: -2px;
+}
+
+p{
+  margin:15px 10px;
+}
