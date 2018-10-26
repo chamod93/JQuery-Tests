@@ -15,5 +15,7 @@ This is a web page which created using codepen.
 This is used jqery sticky function to stick the navbar to the webpage
 When you scrolling the page, the nav bar stop in the top of the page.
 
-
+<h1>-Slideshow-</h1>
+This is a slideshow which used by the jquery cycle2 function
+You can manage the time, speed view by this function and many more
 
